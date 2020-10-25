@@ -1,0 +1,17 @@
+Create a virtual environment in your current directory:
+python3.8 -m venv esphome
+
+Open the virtual environment:
+cd esphome
+
+Activate the virtual environment:
+source bin/activate
+
+Install Home esphome:
+python3 -m pip install esphome
+
+pip3 install esphome
+
+pip3 install tornado esptool
+
+esphome config/ dashboard
